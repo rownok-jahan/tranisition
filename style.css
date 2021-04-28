@@ -1,0 +1,54 @@
+div{
+    width:100px;
+    background:linear-gradient(pink,yellow,violet,red,green);
+    color:red;
+    padding:30px;
+    margin-bottom: 20px;
+    transition:width 2s;
+    font-size:20px;
+    border-radius:10px;
+   
+}
+
+
+.div1:hover{
+    width:500px;
+    transtion-timing-function:linear;
+}
+
+.div2:hover{
+    width:500px;
+    transtion-timing-function:ease;
+}
+
+.div3:hover{
+    width:500px;
+    transtion-timing-function:ease-in;
+}
+
+.div4:hover{
+    width:500px;
+    transtion-timing-function:ease-out;
+}
+
+.div5:hover{
+    width:500px;
+    transtion-timing-function:ease-in-out;
+}
+
+.div6{
+    width:100px;
+    height:100px;
+    font-size:30px;
+    transition: width 2s,height 2s,transform 2s;
+    
+    
+}
+
+.div6:hover{
+    width:350px;
+    height:350px;
+    transform: rotate(360deg);
+     border-radius:60px;
+    
+}
